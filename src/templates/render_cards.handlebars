@@ -1,0 +1,10 @@
+
+{{#each this}}
+    <div class="card">
+            <img src="{{strDrinkThumb}}" alt="">
+            <h3>{{strDrink}}</h3>
+            <p>id: {{idDrink}}</p>
+            <p>price: {{price}}</p>
+        <button data-id="{{idDrink}}" class="order">Замовити</button>
+    </div>
+{{/each}}

@@ -1,0 +1,79 @@
+
+.cards {
+    position: relative;
+    top: 300px;
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+   
+}
+.cards .card {
+    background-color: rgb(102, 100, 100);
+     border-radius: 20px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.cards .card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+// .goods_container {
+//     width: 100vw;
+//     padding: 3%;
+//     display: grid;
+//     grid-template-columns: repeat(4, 1fr);
+//     gap: 20px;
+// }
+
+.card {
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 3.4px 3.4px 6.5px rgb(106, 106, 106);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    img {
+        width: 100%;
+
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    button {
+        position: relative;
+        background-color: rgb(60, 152, 243);
+        border: none;
+        padding: 10px 15px;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        transition: display 0.4s ease-in;
+
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            font-size: 24px;
+        }
+
+        &:hover .text {
+            visibility: hidden;
+        }
+
+        &:hover .icon {
+            display: inline-block;
+        }
+    }
+}

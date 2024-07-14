@@ -1,0 +1,9 @@
+
+body {
+    width: 100vw;
+    min-height: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, auto) minmax(700px, 5fr) minmax(653px, auto);
+    
+}

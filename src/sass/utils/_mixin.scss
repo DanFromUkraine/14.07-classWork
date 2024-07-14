@@ -1,0 +1,14 @@
+
+@mixin bordered($color) {
+    border-color: 1px solid $color;
+}
+@mixin font($color, $weight, $size) {
+    color: $color;
+    font-weight: $weight;
+    font-size: $weight;
+}
+@mixin flex($display, $align, $justify) {
+    display: flex;
+    justify-items: $justify;
+    align-items: $align;
+}

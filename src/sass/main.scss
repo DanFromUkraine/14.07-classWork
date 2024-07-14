@@ -1,0 +1,15 @@
+// utils
+@import "./utils/reset_style";
+@import "./utils/var";
+@import "./utils/mixin";
+@import "./utils/main_grid";
+@import "./utils/elements";
+// components
+@import "./components/header";
+@import "./components/main_banner";
+
+@import "./components/cart";
+
+body {
+    background-color: black;
+}
